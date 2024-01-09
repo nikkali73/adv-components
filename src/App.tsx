@@ -1,6 +1,7 @@
 import Input from "./components/Input.tsx";
 import Button from './components/Button.tsx';
 import Container from "./components/Container.tsx";
+import DemoCard from "./components/MyCard.tsx";
 
 function App(){
   return <main>
@@ -14,6 +15,9 @@ function App(){
     </p>
     <p>
       <Container as={Button}>Click Me!</Container>
+    </p>
+    <p>
+      <DemoCard></DemoCard>
     </p>
   </main>
 }
