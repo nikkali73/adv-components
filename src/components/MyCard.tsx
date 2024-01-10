@@ -18,6 +18,6 @@ export default function DemoCard(){
     return(<MyCard 
         title="My Card"
         actions={<button onClick={()=>console.log("Click Me!!")}>Click Me!</button>}>
-            <p>Esempio di MyCard</p>
+            <p>Some content</p>
         </MyCard>);
 }

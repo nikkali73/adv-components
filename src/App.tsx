@@ -2,6 +2,7 @@ import Input from "./components/Input.tsx";
 import Button from './components/Button.tsx';
 import Container from "./components/Container.tsx";
 import DemoCard from "./components/MyCard.tsx";
+import { Demo } from "./components/IconButton.tsx";
 
 function App(){
   return <main>
@@ -17,8 +18,9 @@ function App(){
       <Container as={Button}>Click Me!</Container>
     </p>
     <p>
-      <DemoCard></DemoCard>
+      <Demo></Demo>
     </p>
+    <DemoCard></DemoCard>
   </main>
 }
 
