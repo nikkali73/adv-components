@@ -3,9 +3,11 @@ import Button from './components/Button.tsx';
 import Container from "./components/Container.tsx";
 import DemoCard from "./components/MyCard.tsx";
 import { Demo } from "./components/IconButton.tsx";
+import { DemoList } from "./components/List.tsx";
 
 function App(){
-  return <main>
+  return <>
+    <main>
     <Input id="name" label="Your name:" type="text"></Input>
     <Input id="age" label="Your age:" type="number"></Input>
     <p>
@@ -22,6 +24,8 @@ function App(){
     </p>
     <DemoCard></DemoCard>
   </main>
+  <DemoList></DemoList>
+  </>
 }
 
 export default App;
